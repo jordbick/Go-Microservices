@@ -1,0 +1,10 @@
+Go Kit is a bundle of different libraries used to build microservices
+The libraries provide components for logging, metrics, tracing, rate limiting and circuit breaking etc.
+
+3 Major components in a Go Kit based app:
+- Transport layer = Ways your microservices can communicate with one another and the outside world
+- Endpoint layer = Microservice functions that get exposed. Each endpoint represents a single RPC method
+- Service layer = Business logic of the microservice
+
+
+
